@@ -9,6 +9,8 @@ shops = {
 puts shops["walmart"]["things they sell"]
 puts shops["chipotle"]["target audience"]
 puts shops["panera"]["things they sell"]
+
+puts "products:"
 shops["walmart"]["products"].each do |products|
-	puts products
+	puts "	#{products}"
 end
